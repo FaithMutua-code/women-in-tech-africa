@@ -1,0 +1,127 @@
+
+[09:51:37 UTC] [INFO] Starting import process | Context: {"template_type":"classic","uuid":""}
+[09:51:37 UTC] [INFO] Started Import Process
+[09:51:37 UTC] [INFO] # System Details: 
+[09:51:37 UTC] [INFO] Debug Mode 		: Disabled
+[09:51:37 UTC] [INFO] Operating System 	: WINNT
+[09:51:37 UTC] [INFO] Software 		: nginx/1.26.1
+[09:51:37 UTC] [INFO] MySQL version 		: 8.0.35
+[09:51:37 UTC] [INFO] XML Reader 		: Yes
+[09:51:37 UTC] [INFO] PHP Version 		: 8.2.27
+[09:51:37 UTC] [INFO] PHP Max Input Vars 	: 4000
+[09:51:37 UTC] [INFO] PHP Max Post Size 	: 1000M
+[09:51:37 UTC] [INFO] PHP Extension GD 	: Yes
+[09:51:37 UTC] [INFO] PHP Max Execution Time 	: 1200
+[09:51:37 UTC] [INFO] Max Upload Size 	: 300 MB
+[09:51:37 UTC] [INFO] Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+[09:51:37 UTC] [INFO] Timezone 		: 0
+[09:51:37 UTC] [INFO] 
+-----
+
+[09:51:37 UTC] [INFO] Importing Started! - 09:51:37 UTC
+[09:51:37 UTC] [INFO] ---
+
+[09:51:37 UTC] [INFO] WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+[09:51:37 UTC] [INFO] https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+[09:51:37 UTC] [INFO] ---
+
+[09:51:37 UTC] [SUCCESS] Import process start flag set successfully | Context: {"template_type":"classic"}
+[09:51:37 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:38 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:39 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:39 UTC] [INFO] ---
+
+[09:51:39 UTC] [INFO] Starting import options
+[09:51:39 UTC] [INFO] Importing site options | Context: {"options":[]}
+[09:51:39 UTC] [INFO] Starting site options import | Context: {"options_count":0}
+[09:51:39 UTC] [ERROR] Site options are empty, import skipped
+[09:51:39 UTC] [ERROR] Site options are empty!
+[09:51:39 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:39 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:40 UTC] [INFO] All required plugins verified successfully.
+[09:51:41 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:43 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:43 UTC] [INFO] ---
+
+[09:51:43 UTC] [INFO] Starting WP Forms import process
+[09:51:43 UTC] [INFO] info | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/632\/wpforms.json","timeout_seconds":300}
+[09:51:44 UTC] [INFO] success | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/632\/wpforms.json","file_size":2069,"uploaded_file":"C:\\Users\\Administrator\\Local Sites\\women-in-tech-africa\\app\\public\/wp-content\/uploads\/2026\/03\/wpforms-1.json"}
+[09:51:44 UTC] [SUCCESS] File downloaded successfully from: https://websitedemos.net/wp-content/uploads/astra-sites/632/wpforms.json
+[09:51:44 UTC] [INFO] Checking if WPForms is already loaded
+[09:51:44 UTC] [INFO] WPForms is already loaded and ready
+[09:51:44 UTC] [INFO] WPForms ID mappings saved: 2 mappings
+[09:51:44 UTC] [SUCCESS] WP Forms Imported. | Context: {"message":"WP Forms Imported.","mapping":{"74":6,"5":8}}
+[09:51:44 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:44 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:45 UTC] [INFO] ---
+
+[09:51:45 UTC] [INFO] Starting import customizer settings
+[09:51:45 UTC] [INFO] Importing customizer settings | Context: {"settings_count":0}
+[09:51:45 UTC] [INFO] Fetched customizer data from site data | Context: {"settings_count":2}
+[09:51:45 UTC] [INFO] Starting customizer settings import | Context: {"settings_count":2}
+[09:51:45 UTC] [INFO] Validating customizer data keys | Context: {"keys":["astra-settings","custom-css"]}
+[09:51:45 UTC] [INFO] Old customizer data backed up
+[09:51:45 UTC] [SUCCESS] Astra theme settings updated | Context: {"option_key":"astra-settings"}
+[09:51:45 UTC] [SUCCESS] Custom CSS updated | Context: {"option_key":"custom-css"}
+[09:51:45 UTC] [SUCCESS] Customizer settings import completed successfully
+[09:51:45 UTC] [SUCCESS] Customizer settings imported successfully
+[09:51:45 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:45 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:46 UTC] [INFO] ---
+
+[09:51:46 UTC] [INFO] Starting XML preparation process
+[09:51:46 UTC] [INFO] Starting XML data preparation | Context: {"wxr_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/632\/wxr.xml"}
+[09:51:46 UTC] [INFO] info | Context: {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/632\/wxr.xml","host":"websitedemos.net"}
+[09:51:46 UTC] [INFO] WXR URL validation passed
+[09:51:46 UTC] [INFO] Starting XML file download | Context: {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/632\/wxr.xml"}
+[09:51:46 UTC] [INFO] info | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/632\/wxr.xml","timeout_seconds":300}
+[09:51:48 UTC] [INFO] success | Context: {"file_url":"https:\/\/websitedemos.net\/wp-content\/uploads\/astra-sites\/632\/wxr.xml","file_size":27650005,"uploaded_file":"C:\\Users\\Administrator\\Local Sites\\women-in-tech-africa\\app\\public\/wp-content\/uploads\/2026\/03\/wxr.xml"}
+[09:51:48 UTC] [SUCCESS] XML file downloaded successfully | Context: {"file_path":"C:\\Users\\Administrator\\Local Sites\\women-in-tech-africa\\app\\public\/wp-content\/uploads\/2026\/03\/wxr.xml"}
+[09:51:48 UTC] [INFO] Inserting XML file as attachment | Context: {"filename":"wxr.xml"}
+[09:51:48 UTC] [SUCCESS] XML attachment created | Context: {"post_id":688}
+[09:51:48 UTC] [INFO] Generating attachment metadata | Context: {"post_id":688}
+[09:51:49 UTC] [INFO] Parsing XML data from file | Context: {"post_id":688}
+[09:51:49 UTC] [INFO] info | Context: {"xml_file_path":"C:\\Users\\Administrator\\Local Sites\\women-in-tech-africa\\app\\public\/wp-content\/uploads\/2026\/03\/wxr.xml","xml_post_id":688}
+[09:51:49 UTC] [INFO] success | Context: {"xml_file_path":"C:\\Users\\Administrator\\Local Sites\\women-in-tech-africa\\app\\public\/wp-content\/uploads\/2026\/03\/wxr.xml","post_count":322,"media_count":37,"author_count":5,"comment_count":0,"term_count":111}
+[09:51:49 UTC] [SUCCESS] XML data preparation completed successfully | Context: {"post_id":688,"has_data":true}
+[09:51:51 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:51 UTC] [INFO] Image subsizes deferral enabled for import
+[09:51:51 UTC] [INFO] info | Context: {"xml_url_provided":false}
+[09:51:51 UTC] [INFO] info | Context: {"xml_url":"C:\\Users\\Administrator\\Local Sites\\women-in-tech-africa\\app\\public\/wp-content\/uploads\/2026\/03\/wxr.xml","file_size":27650005}
+[09:51:55 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:04 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:10 UTC] [INFO] success | Context: {"post_id":709,"post_type":"elementor_library","original_id":20,"post_title":"Default Kit"}
+[09:52:10 UTC] [INFO] success | Context: {"post_id":710,"post_type":"nav_menu_item","original_id":25,"post_title":""}
+[09:52:12 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:14 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:25 UTC] [INFO] success | Context: {"post_id":725,"post_type":"elementor-hf","original_id":201,"post_title":"Footer"}
+[09:52:28 UTC] [INFO] success | Context: {"post_id":729,"post_type":"post","original_id":1,"post_title":"Hello world!"}
+[09:52:28 UTC] [INFO] success | Context: {"post_id":730,"post_type":"page","original_id":6,"post_title":"Home"}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":731,"post_type":"page","original_id":8,"post_title":"About Us"}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":732,"post_type":"page","original_id":10,"post_title":"Contact"}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":733,"post_type":"page","original_id":14,"post_title":"What We Do"}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":734,"post_type":"page","original_id":16,"post_title":"Events"}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":735,"post_type":"page","original_id":18,"post_title":"Gallery"}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":736,"post_type":"nav_menu_item","original_id":21,"post_title":""}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":737,"post_type":"nav_menu_item","original_id":22,"post_title":""}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":738,"post_type":"nav_menu_item","original_id":23,"post_title":""}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":739,"post_type":"nav_menu_item","original_id":24,"post_title":""}
+[09:52:29 UTC] [INFO] success | Context: {"post_id":740,"post_type":"nav_menu_item","original_id":26,"post_title":""}
+[09:52:30 UTC] [INFO] success | Context: {"post_id":741,"post_type":"wp_global_styles","original_id":675,"post_title":"Custom Styles"}
+[09:52:30 UTC] [INFO] success | Context: {"xml_url":"C:\\Users\\Administrator\\Local Sites\\women-in-tech-africa\\app\\public\/wp-content\/uploads\/2026\/03\/wxr.xml"}
+[09:52:30 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:31 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:32 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:32 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:55 UTC] [INFO] Image subsizes deferral enabled for import
+[09:52:56 UTC] [INFO] Image subsizes deferral enabled for import
+[09:53:11 UTC] [INFO] Image subsizes deferral enabled for import
+[09:53:55 UTC] [INFO] Image subsizes deferral enabled for import
+[09:53:56 UTC] [INFO] Image subsizes deferral enabled for import
+[09:54:05 UTC] [INFO] Image subsizes deferral enabled for import
+[09:54:15 UTC] [INFO] Image subsizes deferral enabled for import
+[09:54:32 UTC] [INFO] Image subsizes deferral enabled for import
+[09:54:55 UTC] [INFO] Image subsizes deferral enabled for import
+[09:54:56 UTC] [INFO] Image subsizes deferral enabled for import
+[09:55:00 UTC] [INFO] Import process completed. Cleaning up log file option.
